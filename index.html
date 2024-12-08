@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guilherme Sartori | DataScience</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Cabeçalho do site -->
+    <header>
+        <h1>Guilherme Sartori | DataScience</h1>
+        <!-- Barra de navegação -->
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('sobre')">Sobre mim</a></li>
+                <li><a href="#" onclick="showSection('formacao')">Formação</a></li>
+                <li><a href="#" onclick="showSection('portfolio')">Portfólio</a></li>
+                <li><a href="#" onclick="showSection('contato')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <div class="content">
+        <!-- Seção sobre mim -->
+        <div id="sobre" class="section">
+            <div class="caixa-centralizada">
+                <h2>Sobre mim</h2>
+                <p>
+                    Sou músico e educador com uma paixão pela arte e tecnologia.
+                    Atualmente, estou cursando Ciência de Dados pela UNINTER e
+                    estagiando como RPA Developer na Compass UOL. Trabalho com o ensino
+                    de arte na educação formal e tenho experiência como docente desde
+                    2019 na Prefeitura Municipal de Ribeirão Preto.
+                </p>
+
+                <p>
+                    No campo da música, atuo como músico profissional, com destaque no
+                    contrabaixo elétrico, mas também toco guitarra, piano, violão,
+                    ukulele e flauta doce. Minha carreira musical é complementada pelo
+                    meu trabalho como professor autônomo de música, ensinando esses
+                    instrumentos para uma variedade de alunos.
+                </p>
+
+                <p>
+                    Além de minhas atividades profissionais e educacionais, sou um
+                    entusiasta de videogames, especialmente jogos indies. Acredito que
+                    minhas paixões pela música e pela tecnologia se complementam,
+                    proporcionando-me uma visão única e inovadora tanto no ensino quanto
+                    na aplicação prática das minhas habilidades. Estou sempre em busca
+                    de novos desafios e oportunidades para aprender e crescer em ambas
+                    as áreas.
+                </p>
+            </div>
+        </div>
+
+        <!-- Seção sobre formação -->
+        <div id="formacao" class="section" style="display: none">
+            <div class="caixa-centralizada">
+                <h2>Formação Acadêmica</h2>
+                <p>
+                    <strong>Tecnologia em Ciência de Dados</strong> - UNINTER - Dez/2023 a Jul/2026
+                </p>
+                <p>
+                    <strong>MBA em História da Arte</strong> – Universidade Estácio de Sá – 2019 a 2021
+                </p>
+                <p>
+                    <strong>Licenciatura em Música</strong> - Universidade Federal de São Carlos – 2015 a 2018
+                </p>
+                <p>
+                    <strong>Técnico em Eletromecânica</strong> – SENAI – 2010 a 2011
+                </p>
+                <h2>Idiomas</h2>
+                <p><strong>Português</strong> - Nativo</p>
+                <p><strong>Inglês</strong> - Intermediário/Avançado</p>
+            </div>
+        </div>
+
+        <!-- Seção do portfólio -->
+        <div id="portfolio" class="section" style="display: none">
+            <div class="caixa-centralizada">
+                <h2>Portfólio</h2>
+                <p>Aqui estão alguns dos meus trabalhos:</p>
+                <ul>
+                    <li>
+                        <a href="https://github.com/GuiSartori/teste">GitHub</a> | Repositório GitHub (em construção)
+                    </li>
+                    <li>
+                        <a href="https://github.com/GuiSartori/regex/blob/main/Teste/regexEmail.js">regexEmail.js</a> | Regex para validação de Email
+                    </li>
+                    <li>
+                        <a href="https://1drv.ms/x/c/1bbeb4e4175ed2c3/EUxTgBHo2-tLhWSEGsctASMBp9qc4okQGZdJR6E3vQQCHg?e=Io1mNY">ANOVA</a> | Resumo dos principais conceitos do método ANOVA em Excel
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Seção de contato -->
+        <div id="contato" class="section" style="display: none">
+            <div class="caixa-centralizada">
+                <h2>Contato</h2>
+                <form>
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" />
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" />
+                    </div>
+                    <div>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <p>
+            © 2024 GuiSartori. Este site foi criado como parte da disciplina de Ferramentas de Desenvolvimento WEB | Tec. em Ciência de Dados | UNINTER.
+        </p>
+    </footer>
+
+    <!-- Link para o arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #243a23;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Estilo para justificar o texto */ 
+p { 
+    text-align: justify; }
+
+/* Estilo para a barra de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para itens da barra de navegação */
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Estilo para links de navegação */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilo para links de navegação quando o mouse passar por cima */ nav ul li a:hover { color: #9ace98; }
+
+/* Estilo para o conteúdo principal */
+.content {
+    padding: 20px;
+}
+
+/* Estilo para cada seção */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #243a23;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para o formulário de contato */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Estilo para os elementos do formulário */
+form div {
+    margin-bottom: 10px;
+}
+
+/* Estilo para rótulos do formulário */
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para campos de texto e email */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Permitir redimensionar a área de texto */
+form textarea {
+    resize: vertical;
+}
+
+/* Estilo para botão de envio */
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Estilo para a caixa centralizada */
+.caixa-centralizada {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    max-width: 600px;
+    margin: 0 auto;
+}
