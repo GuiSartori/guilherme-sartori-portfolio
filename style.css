@@ -14,9 +14,10 @@ header {
     text-align: center;
 }
 
-/* Estilo para justificar o texto */ 
-p { 
-    text-align: justify; }
+/* Estilo para justificar o texto */
+p {
+    text-align: justify;
+}
 
 /* Estilo para a barra de navegação */
 nav ul {
@@ -36,7 +37,10 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Estilo para links de navegação quando o mouse passar por cima */ nav ul li a:hover { color: #9ace98; }
+/* Estilo para links de navegação quando o mouse passar por cima */
+nav ul li a:hover {
+    color: rgb(97, 109, 143); /* Altera a cor para cinza claro */
+}
 
 /* Estilo para o conteúdo principal */
 .content {
@@ -109,4 +113,14 @@ form input[type="submit"] {
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     max-width: 600px;
     margin: 0 auto;
+}
+
+/* Estilo para a imagem flutuante */
+.imagem-flutuante {
+    width: 210px; /* Ajuste conforme necessário */
+    float: right;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    border-radius: 15px;
 }
